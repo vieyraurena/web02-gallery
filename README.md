@@ -2,7 +2,7 @@
 
 SASS
 
-#### Installation
+## Installation
 
 Install node.js https://nodejs.org/en/ then install dependencies node
 
@@ -12,5 +12,5 @@ or
 
 ```npm i```
 
-#### Usage
+## Usage
 ```npm run sass```
