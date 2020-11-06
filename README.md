@@ -12,5 +12,5 @@ or
 
 ```npm i```
 
-#### Usage
+### Usage
 ```npm run sass```
