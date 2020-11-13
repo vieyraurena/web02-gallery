@@ -344,6 +344,7 @@ p {
   margin-bottom: 26px;
   padding: 0 76px 0 78px;
   text-align: center;
+  line-height: 1.56rem;
   color: #888888; }
   p a {
     color: #40aceb;
@@ -399,35 +400,56 @@ p {
   border-radius: 5px;
   background-color: #f5ba1c; }
   .free .link:hover {
-    background-color: #eeb416; }
+    background-color: #e0aa14; }
 
 .our-newsroom {
   background-color: #f9f9f9;
-  padding-bottom: 34px; }
+  padding-bottom: 70px;
+  margin-bottom: 30px; }
 
 .content-gallery {
-  float: left; }
-  .content-gallery .link {
-    width: 134px;
-    padding: 14px 28px;
-    margin-left: 233px;
-    text-align: center;
-    color: #f8f9fb;
-    border-radius: 5px;
-    background-color: #40aceb; }
-    .content-gallery .link:hover {
-      background-color: #3190c7; }
+  padding-bottom: 30px; }
   .content-gallery img {
-    width: 50%;
     display: block;
     margin: 0; }
   .content-gallery p {
-    margin: 0; }
+    margin: 0;
+    color: #eaeced; }
+
+.content-gallery-I {
+  width: 50%;
+  float: left; }
+
+.content-gallery-II {
+  width: 50%;
+  float: right; }
 
 .content-parrafo {
-  width: 50%;
   padding: 60px 0 62px 0;
   background-color: coral; }
+
+#color01 {
+  background-color: #a4d3f3; }
+
+#color02 {
+  background-color: #76b3dd; }
+
+#color03 {
+  background-color: #0071bd; }
+
+#color04 {
+  background-color: #333c4d; }
+
+.link {
+  width: 134px;
+  padding: 14px 28px;
+  margin-left: 233px;
+  text-align: center;
+  color: #f8f9fb;
+  border-radius: 5px;
+  background-color: #40aceb; }
+  .link:hover {
+    background-color: #3190c7; }
 
 .gallery {
   background-color: #333c4d;
