@@ -2,19 +2,20 @@
 @import 'library/normalize';
 
 /*Configuraciones*/
-@import 'config/settings';
 @import 'config/mixin';
+@import 'config/settings';
 
 /*Partial*/
 @import 'partial/globales';
 @import 'partial/helpears';
 @import 'partial/header';
-@import 'partial/mainImage';
 @import 'partial/content';
 @import 'partial/freeBook';
 @import 'partial/ourNewsroom';
-
-
+@import 'partial/contenGallery';
+@import 'partial/ourGallery';
+@import 'partial/special';
+@import 'partial/footer';
 
 
 
