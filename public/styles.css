@@ -417,19 +417,17 @@ p {
     background-color: #40aceb; }
     .content-gallery .link:hover {
       background-color: #3190c7; }
+  .content-gallery img {
+    width: 50%;
+    display: block;
+    margin: 0; }
+  .content-gallery p {
+    margin: 0; }
 
-.bloque-color ul {
-  margin: 0;
-  padding: 0; }
-
-.bloque-color li {
-  float: left; }
-
-.bloque-color p {
-  margin: 0;
-  width: 180px;
-  padding: 60px 74px 62px 40px;
-  background-color: #0071bd; }
+.content-parrafo {
+  width: 50%;
+  padding: 60px 0 62px 0;
+  background-color: coral; }
 
 .gallery {
   background-color: #333c4d;
