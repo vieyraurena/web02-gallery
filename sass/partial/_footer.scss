@@ -1,0 +1,21 @@
+.footer{
+
+  p{
+    float: left;
+    font-size: 0.8rem;
+    padding: 0;
+  }
+}
+
+.footer-redes{
+  width: 18.5%;
+  float: right;
+
+  li{
+    float: left;
+  }
+  
+  li + li{
+    margin-left: 15%;
+  }
+}

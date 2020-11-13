@@ -1,0 +1,14 @@
+.content {
+  background-color: #f9f9f9;
+  padding-bottom: 70px;
+  margin-bottom: 34px;
+
+  .link{
+    @include link;
+    background-color:$link01;
+
+    &:hover{
+      background-color: $link01-hover;
+    }
+  }
+}

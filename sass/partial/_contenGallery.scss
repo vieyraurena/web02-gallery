@@ -1,0 +1,31 @@
+.content-gallery{
+  float: left;
+
+  .link{
+    @include link;
+    background-color:$link-color;
+
+    &:hover{
+      background-color: $link-color-hover;
+    }
+  }
+  
+}
+
+.bloque-color{
+  ul{
+    margin: 0;
+    padding: 0; 
+  }
+
+  li{
+    float: left;
+  }
+
+  p{
+    margin: 0;
+    width: 180px;
+    padding:60px 74px 62px 40px;
+    background-color: #0071bd;
+  }
+}

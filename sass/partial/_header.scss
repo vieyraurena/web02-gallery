@@ -1,0 +1,28 @@
+.header {
+  .logo{
+    float: left;
+    margin: 30px 0 ;
+    color:#606060;
+    font-weight: bold;
+  }
+}
+
+.header-nav{
+  float: right;
+  width: 32%;
+  margin: 32px 0;
+  
+  li{
+    float: left;
+  }
+  
+  li + li{
+    margin-left: 14.2%;
+  }
+  
+  a{
+    color: $primary-color;
+  }
+}
+
+
