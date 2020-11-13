@@ -1,6 +1,5 @@
 .content-gallery{
   float: left;
-
   .link{
     @include link;
     background-color:$link-color;
@@ -9,23 +8,20 @@
       background-color: $link-color-hover;
     }
   }
-  
-}
 
-.bloque-color{
-  ul{
+  img{
+    width: 50%;
+    display: block;
     margin: 0;
-    padding: 0; 
   }
-
-  li{
-    float: left;
-  }
-
+  
   p{
     margin: 0;
-    width: 180px;
-    padding:60px 74px 62px 40px;
-    background-color: #0071bd;
-  }
+  } 
+}
+
+.content-parrafo{
+  width: 50%;
+  padding: 60px 0 62px 0;
+  background-color: coral;  
 }
