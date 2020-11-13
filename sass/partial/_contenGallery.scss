@@ -1,27 +1,55 @@
 .content-gallery{
-  float: left;
-  .link{
-    @include link;
-    background-color:$link-color;
-
-    &:hover{
-      background-color: $link-color-hover;
-    }
-  }
+  padding-bottom: 30px;
 
   img{
-    width: 50%;
     display: block;
     margin: 0;
   }
   
   p{
     margin: 0;
+    color: $fondo;
   } 
 }
 
-.content-parrafo{
+.content-gallery-I{
   width: 50%;
+  float: left;
+}
+
+.content-gallery-II{
+  width: 50%;
+  float: right;
+}
+
+.content-parrafo{
   padding: 60px 0 62px 0;
   background-color: coral;  
+}
+
+#color01{
+  background-color: $box-colo01;
+}
+
+#color02{
+  background-color: $box-colo02;
+  
+}
+
+#color03{
+  background-color: $box-colo03;
+  
+}
+
+#color04{
+  background-color: $box-colo04;
+}
+
+.link{
+  @include link;
+  background-color:$link-color;
+
+  &:hover{
+    background-color: $link-color-hover;
+  }
 }
