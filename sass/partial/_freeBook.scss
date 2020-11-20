@@ -1,11 +1,9 @@
 .free{
   .link{
-    @include link;
     background-color: $link02;
     
     &:hover{
       background-color: $link02-hover;
     }
   }
-
 }
