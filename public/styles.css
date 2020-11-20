@@ -376,6 +376,9 @@ p {
   .header-nav a {
     color: #888888; }
 
+.breakpoint {
+  display: none; }
+
 .content {
   background-color: #f9f9f9;
   padding-bottom: 70px;
@@ -410,6 +413,8 @@ p {
 .content-gallery {
   padding-bottom: 30px; }
   .content-gallery img {
+    width: 100%;
+    max-width: 100%;
     display: block;
     margin: 0; }
   .content-gallery p {
@@ -501,6 +506,15 @@ button {
 
 /*BREAKPOINTS*/
 @media (max-width: 1023px) {
+  /*HEADER*/
+  .breakpoint {
+    float: right;
+    display: block;
+    margin: 35px 20px;
+    color: #0071bd;
+    font-weight: bold; }
+  .header-nav {
+    display: none; }
   /*.content-gallery*/
   .content-gallery {
     width: 50%;
