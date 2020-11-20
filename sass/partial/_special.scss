@@ -1,9 +1,12 @@
-
-button{
-  margin-left: 200px;
-  background-color: $button;
-  padding: 25px 34px;
-  border: none;
-  border-radius: 5px;
-  color: $button-view;
+.special-content{
+  background-color:#f9f9f9;
+  padding-bottom: 70px;
+  .link{
+    width: 38.6%;
+    background-color:$button;
+  
+    &:hover{
+      background-color: $button-hover;
+    }
+  }
 }
