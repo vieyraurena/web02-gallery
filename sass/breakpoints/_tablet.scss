@@ -1,4 +1,17 @@
 @media (max-width: 1023px) {
+  /*HEADER*/
+  .breakpoint{
+    float: right;
+    display: block;
+    margin: 35px 20px;
+    color: $box-colo03;
+    font-weight: bold;
+  }
+
+  .header-nav{
+    display: none;
+  }
+
    /*.content-gallery*/
    .content-gallery{
     width: 50%;
