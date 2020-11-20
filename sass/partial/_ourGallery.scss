@@ -23,12 +23,9 @@
   }
 
   .link{
-    @include link;
     background-color: $button-view;
-    color: $fondo02;
-
-    &:hover{
-      background-color: $button-view-hover;
+    a{
+      color: $color-titles;
     }
   }
 }

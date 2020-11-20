@@ -26,30 +26,43 @@
 
 .content-parrafo{
   padding: 60px 0 62px 0;
-  background-color: coral;  
+  background-color: coral; 
+  p{
+    padding:0 70px 0 40px;
+  } 
 }
 
 #color01{
   background-color: $box-colo01;
+  p{
+    text-align: right;
+  }
 }
 
 #color02{
   background-color: $box-colo02;
-  
+  p{
+    text-align: right;
+  }
 }
 
 #color03{
   background-color: $box-colo03;
-  
+  p{
+    text-align: left;
+  }
 }
 
 #color04{
   background-color: $box-colo04;
+  p{
+    text-align: left;
+  }
 }
 
 .link{
-  @include link;
   background-color:$link-color;
+  margin: 0 auto;
 
   &:hover{
     background-color: $link-color-hover;
